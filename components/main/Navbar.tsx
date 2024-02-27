@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#130f40]/50 bg-[#03001417] backdrop-blur-md z-50 px-5 md:px-10">
+   <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#130f40]/50 bg-[#03001417] backdrop-blur-md z-50 px-5 md:px-10">
   <div className="w-full h-full flex flex-row items-center justify-between m-auto px-1 md:px-[10px]">
     <a
       href="#about-me"
@@ -13,8 +13,8 @@ const Navbar = () => {
       <Image
         src="/dipakLogo.png"
         alt="logo"
-        width={70}
-        height={70}
+        width={50}  // Adjusted width for smaller screens
+        height={50} // Adjusted height for smaller screens
         className="cursor-pointer hover:animate-slowspin"
       />
 
