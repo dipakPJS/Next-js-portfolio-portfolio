@@ -13,14 +13,10 @@ const Navbar = () => {
       <Image
         src="/dipakLogo.png"
         alt="logo"
-        width={50}  // Adjusted width for smaller screens
-        height={50} // Adjusted height for smaller screens
+        width={50} // Decreased logo size for smaller screens
+        height={50} // Decreased logo size for smaller screens
         className="cursor-pointer hover:animate-slowspin"
       />
-
-      <span className="font-bold ml-1 md:ml-[1px] text-sm md:text-lg text-gray-300">
-        Dipak Dev
-      </span>
     </a>
 
     <div className="w-full md:w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
@@ -37,19 +33,20 @@ const Navbar = () => {
       </div>
     </div>
 
-    <div className="flex flex-row gap-2 md:gap-5">
+    <div className="flex flex-row gap-1 md:gap-3">
       {Socials.map((social) => (
         <Image
           src={social.src}
           alt={social.name}
           key={social.name}
-          width={24}
-          height={24}
+          width={20} // Decreased size of social media icons for smaller screens
+          height={20} // Decreased size of social media icons for smaller screens
         />
       ))}
     </div>
   </div>
 </div>
+
 
   );
 };
