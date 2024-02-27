@@ -100,17 +100,21 @@ html {
 
 /* Responsive video background for video for different screen sizes */
 
-@media (min-width: 768px) {
+/* Responsive video background for video for different screen sizes */
+
+@media screen and (min-width: 768px) {
   /* Adjust video size for larger screens */
   #about-me video {
-    width: 60vw;
+    max-width: 60vw;
+    height: auto; /* Preserve aspect ratio */
   }
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   /* Further adjust video size for extra-large screens */
   #about-me video {
-    width: 40vw;
+    max-width: 40vw;
+    height: auto; /* Preserve aspect ratio */
   }
 }
 
