@@ -9,12 +9,14 @@ const Hero = () => {
     autoPlay
     muted
     loop
-    className="rotate-180 absolute top-0 left-1/2 transform -translate-x-1/2 h-[50vh] md:h-full md:w-full z-10 object-cover video-sphere"
+    className="rotate-180 absolute top-[-450px] left-1/2 transform -translate-x-1/2 z-10 object-cover"
+    style="width: 80vw; /* Set initial width for smaller screens */"
   >
     <source src="/sphere.mp4" type="video/mp4" />
   </video>
   <HeroContent />
 </div>
+
 
 
   );
