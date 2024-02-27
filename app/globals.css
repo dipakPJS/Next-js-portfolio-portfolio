@@ -97,3 +97,21 @@ background-color: transparent;
 html {
   scroll-behavior: smooth;
 }
+
+/* Responsive video background for video for different screen sizes */
+
+@media (min-width: 768px) {
+  /* Adjust video size for larger screens */
+  #about-me video {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Further adjust video size for extra-large screens */
+  #about-me video {
+    width: 40vw;
+  }
+}
+
+
