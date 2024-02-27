@@ -10,7 +10,7 @@ const Hero = () => {
     muted
     loop
     className="rotate-180 absolute top-[-450px] left-1/2 transform -translate-x-1/2 z-10 object-cover"
-    style="width: 80vw; /* Set initial width for smaller screens */"
+    style="width: 80vw;"
   >
     <source src="/sphere.mp4" type="video/mp4" />
   </video>
