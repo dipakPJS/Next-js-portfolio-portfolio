@@ -12,25 +12,25 @@ const Projects = () => {
       src="/portfolio1.png"
       title="Landing Page Design"
       description="I've crafted a stunning startup landing page with HTML, CSS, JavaScript, and jQuery, offering an impactful platform for showcasing products or services"
-      fontSize="text-sm md:text-base" // Adjust font size for smaller screens
+     
     />
     <ProjectCard
       src="/portfolio2.png"
       title="Custom Calculator with Javascript"
       description="I've created a calculator app that offers users a user-friendly interface and versatile functionality, making it an essential tool for everyday calculations."
-      fontSize="text-sm md:text-base" // Adjust font size for smaller screens
+       
     />
     <ProjectCard
       src="/portfolio4.png"
       title="Full-Stack Blog Application"
       description="I've created a user-friendly full-stack blog application to help people easily share their ideas online, whether it's for personal, professional, or community purposes."
-      fontSize="text-sm md:text-base" // Adjust font size for smaller screens
+       
     />
     <ProjectCard
       src="/portfolio3.png"
       title="Simple Portfolio website"
       description="I've built a portfolio website using HTML, CSS, JavaScript, and jQuery, with Google Maps API and EmailJS for easy contact. It showcases my skills and simplifies communication."
-      fontSize="text-sm md:text-base" // Adjust font size for smaller screens
+      
     />
   </div>
 </div>
